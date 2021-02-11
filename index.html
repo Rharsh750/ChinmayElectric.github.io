@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"> -->
+  <title>Chinmay Electric Led Lamp Rate List</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+
+    .mytable {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ddd;
+      font-size: 18px;
+    }
+
+    .mytable th,
+    .mytable td {
+      padding: 15px;
+    }
+
+    .mytable tr {
+      border-bottom: 0.05px solid #ddd;
+    }
+
+    .header,
+    .mytable tr {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+    }
+
+    .syska h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: white;
+      background-color: black;
+    }
+
+    .active-pink-3 input[type=text] {
+      border: 5px solid #f48fb1;
+      box-shadow: 0 0 0 1px #f48fb1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class=" alert alert-info text-center">
+      <h2>Chinmay Electric Rate List</h2>
+    </div>
+
+    <div class="search">
+      <div class="active-pink-3 active-pink-4 mb-4">
+        <input class="form-control" onkeyup="myFunction()" id="myInput" type="text" placeholder="Search"
+          aria-label="Search">
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div class="syska">
+      <h1>BAJAJ LED LAMP</h1>
+    </div>
+    <!-- bajaj product -->
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td>bajaj 0.05 watt</td>
+        <td>40.00</td>
+        <td>29.40</td>
+        <td>10.60</td>
+      </tr>
+      <tr>
+        <td>bajaj 3 watt</td>
+        <td>80.00</td>
+        <td>65.90</td>
+        <td>11.07</td>
+      </tr>
+      <tr>
+        <td>bajaj 5 watt</td>
+        <td>90.00</td>
+        <td>66.40</td>
+        <td>21.20</td>
+      </tr>
+      <tr>
+        <td>bajaj 7 watt</td>
+        <td>95.00</td>
+        <td>66.90</td>
+        <td>25.70</td>
+      </tr>
+      <tr>
+        <td>bajaj 9 watt</td>
+        <td>110.00</td>
+        <td>68.40</td>
+        <td>39.00</td>
+      </tr>
+      <tr>
+        <td>bajaj 12 watt</td>
+        <td>170.00</td>
+        <td>135.50</td>
+        <td>31.40</td>
+      </tr>
+      <tr>
+        <td>bajaj 15 watt</td>
+        <td>200.00</td>
+        <td>168.00</td>
+        <td>258.80</td>
+      </tr>
+      <tr>
+        <td>bajaj 18 watt</td>
+        <td>240.00</td>
+        <td>215.30</td>
+        <td>21.60</td>
+      </tr>
+      <tr>
+        <td>bajaj 15 watt night lamp</td>
+        <td>15.00</td>
+        <td>9.00</td>
+        <td>6.00</td>
+      </tr>
+      <tr>
+        <td>bajaj 30 watt</td>
+        <td>580.00</td>
+        <td>415.00</td>
+        <td>165.00</td>
+      </tr>
+      <tr>
+        <td>bajaj 50 watt</td>
+        <td>875.00</td>
+        <td>765.00</td>
+        <td>110.00</td>
+      </tr>
+    </table>
+
+    <div class="syska">
+      <h1>SYSKA LED LAMP</h1>
+    </div>
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td>syska 0.05 watt</td>
+        <td>40.00</td>
+        <td>25.00</td>
+        <td>15.00</td>
+      </tr>
+      <tr>
+        <td>syska 5 watt</td>
+        <td>85.00</td>
+        <td>59.00</td>
+        <td>26.00</td>
+      </tr>
+      <tr>
+        <td>syska 7 watt</td>
+        <td>95.00</td>
+        <td>61.00</td>
+        <td>34.00</td>
+      </tr>
+      <tr>
+        <td>syska 9 watt</td>
+        <td>120.00</td>
+        <td>67.00</td>
+        <td>53.00</td>
+      </tr>
+      <tr>
+        <td>syska 12 watt</td>
+        <td>180.00</td>
+        <td>126.00</td>
+        <td>54.00</td>
+      </tr>
+      <tr>
+        <td>stska 15 watt</td>
+        <td>200.00</td>
+        <td>144.00</td>
+        <td>56.00</td>
+      </tr>
+      <tr>
+        <td>syska 18 watt</td>
+        <td>225.00</td>
+        <td>171.00</td>
+        <td>54.00</td>
+      </tr>
+      <tr>
+        <td>syska 20 watt</td>
+        <td>325.00</td>
+        <td>271.00</td>
+        <td>54.00</td>
+      </tr>
+      <tr>
+        <td>syska 26 watt</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>syska 35 watt</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>syska 45 watt</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <!-- Imee led lamp -->
+    <div class="syska">
+      <h1>IMEE LED LAMP</h1>
+    </div>
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td>I mee 7 watt</td>
+        <td></td>
+        <td>64.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 9 watt</td>
+        <td></td>
+        <td>68.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 12 watt</td>
+        <td></td>
+        <td>135.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 15 watt</td>
+        <td></td>
+        <td>160.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 18 watt</td>
+        <td></td>
+        <td>180.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 20 watt</td>
+        <td></td>
+        <td>210.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 50 watt</td>
+        <td></td>
+        <td>699.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 0.05 watt</td>
+        <td></td>
+        <td>27.00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>I mee 22watt T5</td>
+        <td></td>
+        <td>260.00</td>
+        <td></td>
+      </tr>
+    </table>
+    <!-- computer -->
+    <div class="syska">
+      <h1>COMPUTER</h1>
+    </div>
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td> computer hero swich</td>
+        <td>10</td>
+        <td>7.42</td>
+        <td>2.58</td>
+      </tr>
+      <tr>
+        <td>computer 2pin soket</td>
+        <td>10</td>
+        <td>7.42</td>
+        <td>2.58</td>
+      </tr>
+      <tr>
+        <td>computer 5pin socket</td>
+        <td>15</td>
+        <td>13.75</td>
+        <td>1.25</td>
+      </tr>
+      <tr>
+        <td>computer s.s combined</td>
+        <td></td>
+        <td>57.75</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>computer angle holder</td>
+        <td>15</td>
+        <td>11.00</td>
+        <td>4.00</td>
+      </tr>
+      <tr>
+        <td>computer buttan holder</td>
+        <td>15</td>
+        <td>11.00</td>
+        <td>4.00/td>
+      </tr>
+      <tr>
+        <td>computer indicater </td>
+        <td>10</td>
+        <td>8.80</td>
+        <td>1.20</td>
+      </tr>
+      <tr>
+        <td>computer 16AMP swich</td>
+        <td>35</td>
+        <td>27.50</td>
+        <td>7.50</td>
+      </tr>
+      <tr>
+        <td>computer 16AMP socket</td>
+        <td>40</td>
+        <td>30.25</td>
+        <td>9.75</td>
+      </tr>
+      <tr>
+        <td>computer single adapter</td>
+        <td>15</td>
+        <td>6.87</td>
+        <td>8.13</td>
+      </tr>
+      <tr>
+        <td>computer paraller adeptore</td>
+        <td>15</td>
+        <td>8.25</td>
+        <td>6.75</td>
+      </tr>
+      <tr>
+        <td>computer multi holder black</td>
+        <td>15</td>
+        <td>7.97</td>
+        <td>7.03</td>
+      </tr>
+      <tr>
+        <td>computer pendent holder (latakne vala)</td>
+        <td>15</td>
+        <td>7.70</td>
+        <td>7.30</td>
+      </tr>
+      <tr>
+        <td>computer voice bell</td>
+        <td>150</td>
+        <td>85.00</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td>coputer 2pin multiplug</td>
+        <td>15</td>
+        <td>6.05</td>
+        <td>8.95</td>
+      </tr>
+      <tr>
+        <td>computer 3.5 multiplug</td>
+        <td>35</td>
+        <td>19.25</td>
+        <td>15.75</td>
+      </tr>
+      <tr>
+        <td>computer 3pin multiplug</td>
+        <td>15</td>
+        <td>9.90</td>
+        <td>5.10</td>
+      </tr>
+      <tr>
+        <td>computer 3pin top sumo</td>
+        <td>30</td>
+        <td>16.50</td>
+        <td>13.50</td>
+      </tr>
+      <tr>
+        <td>computer 3pin top 16A sumo</td>
+        <td>40</td>
+        <td>28.32</td>
+        <td>11.68</td>
+      </tr>
+    </table>
+    <!-- western echo/euro series -->
+    <div class="syska">
+      <h1>WESTERN ECHO</h1>
+    </div>
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td> WESTERN ECO 6AMP SWICH</td>
+        <td>15</td>
+        <td>10.83</td>
+        <td>4.17</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO 6AMP SOCKET</td>
+        <td>20</td>
+        <td>17.67</td>
+        <td>2.33</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO INDICATER</td>
+        <td>20</td>
+        <td>18.24</td>
+        <td>1.76</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO2WAY SWICH</td>
+        <td>25</td>
+        <td>17.10</td>
+        <td>7.90</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO 16AMP SWICH</td>
+        <td>60</td>
+        <td>47.31</td>
+        <td>12.69</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO 16AMP SOCKET</td>
+        <td>60</td>
+        <td>47.31</td>
+        <td>12.69</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO Power Plug</td>
+        <td>120</td>
+        <td>70.68</td>
+        <td>49.32</td>
+      </tr>
+      <tr>
+        <td> WESTERN ECO D.P SWITCH</td>
+        <td>120</td>
+        <td>91.20</td>
+        <td>28.80</td>
+      </tr>
+      <tr>
+        <td>WESTERN ECO 3PIN TOP BENZ</td>
+        <td>45</td>
+        <td>39.64</td>
+        <td>5.36</td>
+      </tr>
+      <tr>
+        <td>WESTERN ECO 3PIN TOP 19AMP BENZ</td>
+        <td>50</td>
+        <td>41.04</td>
+        <td>8.96</td>
+      </tr>
+      <tr>
+        <td>WESTERN ECO 3.5MULTIPLUG GEMS</td>
+        <td>45</td>
+        <td>37.62</td>
+        <td>7.38</td>
+      </tr>
+      <tr>
+        <td>WESTERN ECO 3.5 MULTIPLUG D/X</td>
+        <td>35</td>
+        <td>27.44</td>
+        <td>7.56</td>
+      </tr>
+    </table>
+    <!-- western vega series -->
+    <div class="syska">
+      <h1>WESTERN VEGA</h1>
+    </div>
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td>WESTERN VEGA SWICH</td>
+        <td>20</td>
+        <td>12.50</td>
+        <td>7.50</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA 5PIN SOCKET</td>
+        <td>30</td>
+        <td>24.36</td>
+        <td>5.64</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA 2PIN SOCKET</td>
+        <td>25</td>
+        <td>23.94</td>
+        <td>1.06</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA INDICATER</td>
+        <td>30</td>
+        <td>28.14</td>
+        <td>1.86</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA 2WAY SWICH</td>
+        <td>35</td>
+        <td>29.40</td>
+        <td>5.60</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA BELL PUSH SWICH</td>
+        <td>35</td>
+        <td>29.40</td>
+        <td>5.60</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA TEL JACK SWICH</td>
+        <td>40</td>
+        <td>33.60</td>
+        <td>6.40</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA DIMMER SWICH</td>
+        <td>140</td>
+        <td>134.40</td>
+        <td>5.60</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA DIMMER SOCKET</td>
+        <td>160</td>
+        <td>144.90</td>
+        <td>15.10</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA ANGLE HOLDER</td>
+        <td>35</td>
+        <td>24.36</td>
+        <td>10.64</td>
+      </tr>
+      <tr>
+        <td>WESTERN VEGA BUTTAN HOLDER</td>
+        <td>35</td>
+        <td>24.36</td>
+        <td>10.64</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA CELLING ROSE</td>
+        <td>25</td>
+        <td>15.54</td>
+        <td>9.46</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA U.S.B SOCKET</td>
+        <td>350</td>
+        <td>294.00</td>
+        <td>56</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA 16AMP SWICH</td>
+        <td>35</td>
+        <td>25.62</td>
+        <td>9.38</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA 16AMP SOCKET</td>
+        <td>65</td>
+        <td>59.64</td>
+        <td>5.36</td>
+      </tr>
+      <tr>
+        <td> WESTERN VEGA MOTER STARTER</td>
+        <td>175</td>
+        <td>165.90</td>
+        <td>9.10</td>
+      </tr>
+      <tr>
+        <td>WESTERN MODULAR PLATE 1MODULE</td>
+        <td>30</td>
+        <td>23.52</td>
+        <td>6.48</td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 2MODULE</td>
+        <td>35</td>
+        <td>24.36</td>
+        <td>10.64</td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 3MODULE</td>
+        <td>40</td>
+        <td>31.50</td>
+        <td>8.50</td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 4MODULE</td>
+        <td>45</td>
+        <td>36.96</td>
+        <td>8.04</td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 6MODULE</td>
+        <td>60</td>
+        <td>53.34</td>
+        <td>6.66</td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 8MODULE SQUER</td>
+        <td></td>
+        <td>65.10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 8MODULE HORI.</td>
+        <td></td>
+        <td>67.20</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULAR PLATE 12MODULE</td>
+        <td></td>
+        <td>77.70</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> WESTERN MODULER PLATE 18MODULE</td>
+        <td></td>
+        <td>98.70</td>
+        <td></td>
+      </tr>
+    </table>
+    <!-- pancham box -->
+    <div class="syska">
+      <h1>Gang Box/ Pancham Box</h1>
+    </div>
+    <table id="myTable" class="mytable" data-name="mytable">
+      <tr class="header">
+        <th style="width:30%;">PRODUCT NAME</th>
+        <th style="width:30%;">SELLING PRICE</th>
+        <th style="width:30%;">MY PRICE</th>
+        <th style="width:30%;">MARGIN</th>
+      </tr>
+      <tr>
+        <td>Gang Box 2model</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gang Box 3model</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> Gang Box 4model</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> Gang Box 6model</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gang Box 8model</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gang Box 12model </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Gang Box 18model</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+    </table>
+  </div>
+  <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, alltables;
+      alltables = document.querySelectorAll("table[data-name=mytable]");
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      alltables.forEach(function (table) {
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
